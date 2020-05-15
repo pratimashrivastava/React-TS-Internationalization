@@ -1,14 +1,15 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-
+import englishTranslations from './static/locales/en/common.json';
+import hindiTranslations from './static/locales/hi/common.json';
 // the translations
 // (tip move them in a JSON file and import them)
 const resources = {
   en: {
-    translation: {
-      "Welcome to React": "Welcome to React and react-i18next",
-      "hello-world": "Hello, World!",
-    },
+    translation: englishTranslations
+  },
+  hi: {
+    translation: hindiTranslations
   },
 };
 
